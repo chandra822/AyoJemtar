@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEMTAR - Jemput Antar Langsung</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1><i class="fas fa-motorcycle"></i> JEMTAR</h1>
+            <p class="tagline">Layanan Jemput Antar Langsung</p>
+            
+            <div class="driver-info">
+                <img src="jemtar1" alt="Driver" class="driver-photo">
+                <div class="driver-details">
+                    <h3>Driver</h3>
+                    <p>🏍️ BA 2791 LAC</p>
+                    <p>📱 0896-5219-8683</p>
+                </div>
+            </div>
+
+            <form id="jemtarForm">
+                <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="nama" placeholder="Nama Lengkap" required>
+                </div>
+
+                <div class="input-group">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="text" id="alamatJemput" placeholder="Alamat Penjemputan" required>
+                </div>
+
+                <div class="input-group">
+                    <i class="fas fa-map-pin"></i>
+                    <input type="text" id="alamatAntar" placeholder="Alamat Pengantaran" required>
+                </div>
+
+                <button type="submit" class="pesan-btn">
+                    <i class="fab fa-whatsapp"></i> Pesan via WhatsApp
+                </button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
